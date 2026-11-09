@@ -4,43 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bernardo Fernandes | Portefólio</title>
-    <!-- Ligação ao ficheiro CSS externo -->
     <link rel="stylesheet" href="indexcss.css">
 </head>
 <body>
 
-    <div class="container">
-        <!-- HEADER / INFO PESSOAL -->
-        <header>
-            <h1>Bernardo Fernandes</h1>
-            <div class="tagline">Estudante de Engenharia Informática | Istec Porto</div>
-            <div class="contact-links">
-                <a href="mailto:benyjrf2005@gmail.com">Email</a>
-                <a href="https://github.com/" target="_blank">GitHub</a>
-                <span>Telemóvel: 933273052</span>
-            </div>
-
-            <!-- Menu de Navegação Rápido -->
-            <nav class="nav-menu">
-                <a href="#sobre">Sobre Mim</a>
+    <!-- NAVBAR FIXA MODERNA -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <span class="nav-logo">BF.dev</span>
+            <div class="nav-links">
+                <a href="#sobre">Sobre</a>
                 <a href="#formacao">Formação</a>
                 <a href="#experiencia">Experiência</a>
                 <a href="#certificados">Certificados</a>
                 <a href="#competencias">Competências</a>
-            </nav>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- HEADER / HERO SECTION -->
+        <header class="hero">
+            <h1>Bernardo Fernandes</h1>
+            <p class="tagline">Estudante de Engenharia Informática <span class="highlight">@ Istec Porto</span></p>
+            
+            <div class="contact-pills">
+                <a href="mailto:benyjrf2005@gmail.com" class="pill">📧 Email</a>
+                <a href="https://github.com/" target="_blank" class="pill">💻 GitHub</a>
+                <span class="pill">📱 933273052</span>
+            </div>
         </header>
 
         <!-- SOBRE MIM -->
-        <div class="section" id="sobre">
+        <section class="section" id="sobre">
             <h2>Sobre Mim</h2>
             <div class="card">
                 <p>Sou uma pessoa motivada por desafios, gosto de saber o "porque?" de tudo detalhadamente, sempre agarrei as oportunidades que me surgem da melhor forma possível. Procuro ser acessível e acolhedor para poder ter um ambiente de confiança ao meu redor.</p>
                 <p>Gosto de praticar exercício físico, ler, estudar temas relativos a psicologia/filosofia e conhecer locais novos. Já trabalhei em diversos ramos fora da minha área de formação, desde monitor de festas para crianças a empregado de mesa (catering em quintas de eventos), entre outros.</p>
             </div>
-        </div>
+        </section>
 
         <!-- FORMAÇÃO ACADÉMICA -->
-        <div class="section" id="formacao">
+        <section class="section" id="formacao">
             <h2>Formação Académica</h2>
             
             <div class="card">
@@ -60,10 +65,10 @@
                 <span class="date">Set. 2024 - Jul. 2025</span>
                 <p>Montagem, configuração e reparação de computadores, periféricos e equipamento de rede. Instalação e administração de Sistemas Operativos (Windows e Linux) e serviços essenciais de rede.</p>
             </div>
-        </div>
+        </section>
 
         <!-- EXPERIÊNCIA PROFISSIONAL -->
-        <div class="section" id="experiencia">
+        <section class="section" id="experiencia">
             <h2>Experiência Profissional</h2>
 
             <div class="card">
@@ -83,13 +88,12 @@
                     <li>Participação no projeto de instalação de serviços de backup para a agência de viagens Abreu.</li>
                 </ul>
             </div>
-        </div>
+        </section>
 
         <!-- CERTIFICADOS -->
-        <div class="section" id="certificados">
+        <section class="section" id="certificados">
             <h2>Certificados e Comprovativos</h2>
 
-            <!-- Certificado 1 -->
             <div class="card cert-card">
                 <div class="cert-icon-container">
                     <img src="certificados/logo-norai.png" alt="Logo" class="cert-img">
@@ -105,7 +109,6 @@
                 </div>
             </div>
 
-            <!-- Certificado 2 -->
             <div class="card cert-card">
                 <div class="cert-icon-container">
                     <img src="certificados/logo-ispgaya.png" alt="Logo" class="cert-img">
@@ -120,10 +123,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- COMPETÊNCIAS E IDIOMAS -->
-        <div class="section" id="competencias">
+        <section class="section" id="competencias">
             <h2>Competências & Idiomas</h2>
             <div class="card">
                 <p><strong>Área de Preferência:</strong> Back-end</p>
@@ -138,7 +141,7 @@
                 </ul>
                 <p style="margin-top: 15px;"><strong>Idiomas:</strong> Inglês (B2)[cite: 2]</p>
             </div>
-        </div>
+        </section>
     </div>
 
 </body>
